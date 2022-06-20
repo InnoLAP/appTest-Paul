@@ -1,0 +1,1 @@
+# Test project for learning cross platform app development in react native (expo)
