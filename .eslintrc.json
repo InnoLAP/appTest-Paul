@@ -1,0 +1,37 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+		"react-native/react-native": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+		"react-native"
+    ],
+    "rules": {
+		"array-bracket-spacing": 1,
+		"comma-spacing": [1, { "before": false, "after": true }],
+		"comma-style": [1, "last"],
+		"indent": [2, "tab"],
+		"jsx-quotes": [1, "prefer-single"],
+		"semi": [2, "always"],
+		"no-unused-vars": "off",
+		"react/prop-types": ["off"],
+		"react/display-name": ["off"],
+		"react/no-unescaped-entities": ["off"],
+		"no-else-return": "warn",
+		"no-unneeded-ternary": "warn",
+		"no-useless-return": "warn",
+		"no-var": "warn",
+		"one-var": ["warn", "never"],
+		"prefer-arrow-callback": "warn",
+		"no-tabs": "off"
+    }
+}
