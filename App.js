@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { Text, View } from 'react-native';
-import styles from './src/css/global.scss';
+import styles from './src/css/_app.scss';
 
 export default function App() {
 
 	return (
 		<View style={styles.container}>
-			<Text>Open upawd App.js to stahgvrt working on your app!</Text>
+			<Text>Open up App.js to start working on your app!</Text>
 			<StatusBar />
 		</View>
 	);
