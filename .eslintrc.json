@@ -22,7 +22,7 @@
 		"indent": [2, "tab"],
 		"jsx-quotes": [1, "prefer-single"],
 		"semi": [2, "always"],
-		"no-unused-vars": "off",
+		"no-unused-vars": 0,
 		"react/prop-types": ["off"],
 		"react/display-name": ["off"],
 		"react/no-unescaped-entities": ["off"],
@@ -32,6 +32,7 @@
 		"no-var": "warn",
 		"one-var": ["warn", "never"],
 		"prefer-arrow-callback": "warn",
-		"no-tabs": "off"
+		"no-tabs": "off",
+		"no-duplicate-imports": "error"
     }
 }
